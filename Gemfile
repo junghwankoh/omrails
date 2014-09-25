@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-rails '3.2.19'
 
 gem 'rails', '3.2.19'
 gem 'jquery-rails'
