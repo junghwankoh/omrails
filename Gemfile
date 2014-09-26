@@ -17,7 +17,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 3.2.0'
-  # These gems were added to push bootstrapped code to heroku.
+  # These gems were added to push bootstrapped code to heroku. Then I ran 'bundle install' and then, ran 'rails generate bootstrap:install less' to install 'less CSS'
   gem 'less-rails'
   gem 'twitter-bootstrap-rails'
 end
