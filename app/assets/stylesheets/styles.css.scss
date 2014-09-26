@@ -1,0 +1,33 @@
+/* This is to change the font of the app to whatever you want. The example below imports to font from Google.
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+*/
+
+/* When using sass, you can still use bootstrap functions but instead of @ sign (which is for lass), you would use $ sign. */
+$navbar-default-bg: white;
+$navbar-default-link-hover-color: white;
+$navbar-default-border: none;
+$btn-primary-bg: green;
+
+@import 'bootstrap';
+
+body { 
+	padding-top: 70px; 
+	padding-left: 0px;
+}
+
+.navbar-brand {
+	padding-left: 120px;
+}
+
+.navbar-right {
+	padding-right: 110px;
+}
+
+.footer {
+	margin-top: 50px;
+	color:  #d3d3d3;
+	a {
+		color: $gray;
+	}
+}
