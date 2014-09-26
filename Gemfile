@@ -18,5 +18,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 3.2.0'
   # These gems were added to push bootstrapped code to heroku.
+  gem 'less-rails'
   gem 'twitter-bootstrap-rails'
 end
