@@ -8,7 +8,11 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git' #adding the 'git:' part is important because it updates the version and removes the error.
 
 # This gem was added to set up the password/login/sign up system.
+# Don't forget to run --> heroku run rake db:migrate, to activate devise on app.
 gem 'devise'
+
+# This gem was added to create forms
+gem 'simple_form' 
 
 group :production do
 	gem 'pg'
@@ -24,4 +28,5 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 3.2.0'
+  # gem 'sass-rails', '~> 4.0.2' - this gem was added for simple_form when I checked their code
 end
