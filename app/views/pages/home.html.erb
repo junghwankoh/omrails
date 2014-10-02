@@ -2,13 +2,13 @@
 	<h1>You're logged in!</h1>
 <% else %>
 <div class="jumbotron">
-	<h2>Welcome to Michael's First Sample Application Page!</h2>
-	<p>
-		You've found the home page for
-		<%= link_to "MAP", "http://michaelappsproject.com" %> ("Michael's Applications Project")
-	</p>
-	<p>
-		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-lg" %>
-	</p>
+		<h2>Welcome to Michael's First Sample Application Page!</h2>
+		<p>
+			You've found the home page for
+			<%= link_to "MAP", "http://michaelappsproject.com" %> ("Michael's Applications Project")
+		</p>
+		<p>
+			<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+		</p>
 </div>
 <% end %>
