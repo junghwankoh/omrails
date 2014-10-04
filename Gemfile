@@ -14,6 +14,9 @@ gem 'devise'
 # This gem was added to create forms
 gem 'simple_form' 
 
+#This gem was added to upload files - image
+gem 'paperclip', '~> 4.2'
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
