@@ -15,7 +15,7 @@ gem 'devise'
 gem 'simple_form' 
 
 #This gem was added to upload files - image
-gem 'paperclip', '~> 4.2'
+gem 'paperclip', '2.7.4'
 
 group :production do
 	gem 'pg'
