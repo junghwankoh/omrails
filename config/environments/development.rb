@@ -39,5 +39,6 @@ Newomrails::Application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  #Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.8.9-Q16'
+  #This is added to use ImageMagick, which allows users to edit the uploaded images
+  Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.8.9-Q16'
 end

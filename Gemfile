@@ -15,6 +15,7 @@ gem 'devise'
 gem 'simple_form' 
 
 #This gem was added to upload files - image
+#changing the paperclip version from 4.2.0 to 2.7.4 and hence changing the consequent cocaine version to 0.3.2 from 0.5.4 allowed the "no files chosen" error to be fixed.
 gem 'paperclip', '2.7.4'
 
 group :production do
